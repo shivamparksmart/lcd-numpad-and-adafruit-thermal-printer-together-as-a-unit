@@ -1,1 +1,1 @@
-# lcd-numpad-and-adafruit-thermal-printer-together-as-a-unit
+# lcd-numpad-and-adafruit-thermal-printer-together-as-a-unit using Raspberry PI
