@@ -35,7 +35,7 @@ keypad = factory.create_keypad(keypad=KEYPAD, row_pins=ROW_PINS, col_pins=COL_PI
 #******************************************#
 f= open('data.txt', 'r')
 vehicle = f.read()
-firebase=firebase.FirebaseApplication('https://parksmart-shivam.firebaseio.com/')
+firebase=firebase.FirebaseApplication('https://<yourdatabasename>.firebaseio.com/')
 
 firebase.post('/user', data={'Vehicle Details': vehicle})
 def printKey(key):
